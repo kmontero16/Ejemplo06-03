@@ -33,6 +33,28 @@ and open the template in the editor.
         <?php
             $saludo="Mundo Variable";
             echo "Hola ".$saludo;
-        ?>        
+        ?>     
+        <br>
+        Arreglos
+        <br>
+        <?php
+            $meses["enero"]="verano";
+            $meses["febrero"]="verano";
+            $meses["marzo"]="verano";
+            $meses["abril"]="verano/otoño";
+            $meses["mayo"]="otoño";
+            $meses["junio"]="otoño/invierno";
+            $meses["julio"]="invierno";
+            $meses["agosto"]="invierno";
+            $meses["septiembre"]="invierno/primavera";
+            $meses["octubre"]="primavera";
+            $meses["noviembre"]="primavera";
+            $meses["diciembre"]="verano";
+            
+           foreach($meses as $mes){
+                print "en ".key($meses)." es $mes <br>";
+                next($meses);
+            }
+        ?>
     </body>
 </html>
