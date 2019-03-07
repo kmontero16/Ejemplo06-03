@@ -1,8 +1,12 @@
+<?PHP require 'operaciones.php' ?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
+-->
+<!--SUPER UTIL!!!!!!!
+http://php.net/manual/es/function.key.php
 -->
 <html>
     <head>
@@ -10,6 +14,7 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        <?php include 'html.php'?>
         <?php
             echo "Hola Mundo2"
         ?>
@@ -54,8 +59,10 @@ and open the template in the editor.
            foreach($meses as $mes){
                 print "en ".key($meses)." es $mes <br>";
                 next($meses);
-            }
-            
+            }            
         ?>
+        <br>
+        Arreglos
+        <br>
     </body>
 </html>
