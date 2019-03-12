@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-mar-2019, 21:07:52
+    Author     : cetecom
+*/
+/*
+APLICACION GENERAL POR CLASES
+*/
+.parrafo{
+    font-size: 20px;
+    color: red;
+    background: white;
+    border: 1px;
+    border-style: solid;
+    border-color: black ;
+}
+.parrafo2{
+    font-size: 40px;
+    color: green;
+    background: yellow;
+    border: 1px;
+    border-style: solid;
+    border-color: red ;
+}
+
+/*APLICACION ESPECIFICA ID*/
+#parrafo{
+    font-size: 30px;
+    font-family: cursive;
+    color: blue;
+    background: whitesmoke;
+    border: 3px;
+    border-style: solid;
+    border-color: blue ;
+}
+
+/*para definir que sucede si la pantalla tiene cierta definicion*/
+@media screen and (max-width:450px){
+    .parrafo{
+    font-size: 5px;
+    font-family: sans-serif;
+    color: black;
+    background: yellow;
+    border: 1px;
+    border-style: solid;
+    border-color: red ;
+}
+}
